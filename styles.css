@@ -1,0 +1,96 @@
+.logo{
+    color:black;
+    border-radius: 70%;
+    max-width: 50px ;
+}
+h1{
+    color:black;
+}
+body{
+    background: black;
+    color: red;
+
+}
+.bandeau{
+    background:radial-gradient(circle at left, rgb(245, 219, 124) 0, #e8ae03, rgb(226, 126, 5) 100%);
+    
+}
+header{
+    color:rgb(23, 20, 20);
+    background: yellow;
+    
+}
+footer{
+    background:radial-gradient(circle at center, rgb(248, 216, 119) 0, #e8ae03, rgb(183, 115, 6) 100%);
+    color:rgb(191, 117, 21);
+}
+.foot-part{
+    margin-right:110px;
+display: inline;
+}
+
+.forminscription{
+    max-width: 250px;
+}
+
+.breadcrumb-item:hover{
+    color:red;
+}
+.mainInscription{
+    display: flex;
+}
+.ring-child{
+    margin-bottom: 60px;
+    margin-right: 60px;
+    margin-left: 60px;
+    border-radius: 70%;
+    border:solid 5px red;
+    height:400px;
+}
+/* css de la video d accueil*/
+#background-video {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    }
+    
+    h1, h2, #btnVideo{
+    
+    color: white;
+    
+    font-family: Trebuchet MS;
+    
+    font-weight: bold;
+    
+    text-align: center;
+    
+    }
+    
+    h1 {
+    font-size: 6rem;
+    margin-top: 30vh;
+    }
+    
+    h2 { font-size: 3rem; }
+    
+    #btnVideo{
+    font-size: 1.5rem;
+    background: 0;
+    border: 0;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    }
+/*ajout du responsive
+
+@include media-breakpoint-up(sm) { ... }
+@include media-breakpoint-up(md) { ... }
+@include media-breakpoint-up(lg) { ... }
+@include media-breakpoint-up(xl) { ... }
+@include media-breakpoint-up(xxl) { ... }
+*/

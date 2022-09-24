@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- rajout de bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <!--rajoute la description dans google par exemple -->
+    <meta name="description" content="description du site dans la pages des moteur de recherche">
+    <!-- rajout du favicon-->
+    <link rel="shortcut icon" type="image/png" href="images\logoFred.jpg"/>
+    <title>BOA</title>
+</head>
+<body>
+    <header class="bandeau">
+        <div>
+            <h1><img class="logo" src="images\logoFred.jpg" alt="RING">Boxing Olmes association</h1>
+        </div>
+        
+        <div>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="accueil.html">Acceuil</a></li>
+                    <li class="breadcrumb-item"><a href="evenement.html">évènements</a></li>
+                    <li class="breadcrumb-item"><a href="contacts.html">Contacts</a></li>
+                    <li class="breadcrumb-item"><a href="disciplines.html">Disciplines</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">inscription</li>
+                </ol>
+            </nav>
+        </div>      
+    </header>
+    <h1><i><b>  INSCRIPTION</b></i></h1>
+    <main class="mainInscription">
+        <form class="forminscription">
+        <div class="forminscription mb-4">
+            <label for="exampleInputEmail1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">ne jamais donner votre email !</div>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Mot de passe</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">se souvenir de moi</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Envoyer</button>
+        </form>
+        <div class="ring"> 
+            <img class="ring-child" src="images\ring.jpg" alt="la salle">
+        </div>  
+        <div>
+            <h1>pourquoi s inscrire</h1>
+            <p><i>Lorem ipsum dolor </i> <br>
+                <strong> sit amet consectetur adipisicing elit.
+            Consequatur id,</strong><br>omnis voluptatem tempora quo eius </b> 
+            quae iusto ut voluptas cumque illum suscipit, <br>
+            commodi veritatis ipsa veniam. Velit,<br>
+            ratione labore? Necessitatibus!</p>
+        </div>
+    </main>
+    <footer>
+        <div class="foot-fan"></div>
+        <div class="foot-part">
+            <nav aria-label="foot-part">
+                <ol class="foot-part">
+                    <li class="foot-part"><a href="#">partenaire 1</a></li>
+                    <li class="foot-part"><a href="#">partenaire 2</a></li>
+                    <li class="foot-part"><a href="#">partenaire 3</a></li>
+                    <li class="foot-part"><a href="#">partenaire ect</a></li>
+                    <li class="foot-part active" aria-current="page">Copyright*Fanfannatas 2022</li>
+                </ol>
+            </nav>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
